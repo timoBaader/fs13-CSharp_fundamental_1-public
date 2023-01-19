@@ -15,16 +15,18 @@ namespace CSharpFundamental
             /* Challenge 2 */
             int[,] arrayA = { { 3, 5, 4, 6 }, { 3, 7, 8, 3 } };
             int[,] arrayB = { { 5, 1 }, { 8, 4 }, { 2, 9 }, { 2, 3 } };
-            int[,] result = matrixMultiply(arrayA, arrayB);
-            Console.WriteLine(result); //share your findings to Slack
+            //int[,] result = matrixMultiply(arrayA, arrayB);
+            //Console.WriteLine(result); //share your findings to Slack
         }
         static string toTitleCase(string input)
         {
             /* Write your code here */
+            return "aasd";
         }
-        static int[,] matrixMultiply(int[,] array1, int[,] array2)
-        {
-            /* Write your code here */
-        }
+        // static int[,] matrixMultiply(int[,] array1, int[,] array2)
+        // {
+        //     /* Write your code here */
+        //     return [3,3];
+        // }
     }
 }
